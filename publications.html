@@ -1,0 +1,46 @@
+---
+layout: page
+title: Publications
+order: 2
+---
+
+{% for pub in site.data.publications %}
+            <table width="100%" border="0" class="pubs">
+              <tr class="pubs">
+                <td class="pubs">
+					<h4 class="pub-title">
+						{{ pub.title }}	
+					</h4>
+		            <!-- <table width="100%" border="0" class="pub_auth_conf">
+	                	<tr class="pub_auth_conf">
+			                <td class="pubs pub_author">
+								{{ pub.authors }}
+		                    </td>
+			                <td class="pub_conference">
+								{{ pub.conference }}
+                  		  	</td>
+		              	</tr>
+		            </table> -->
+						<span class="pub_author"> {{ pub.authors }} </span> -
+						<span class="pub_conference"> {{ pub.conference }} </span>
+					
+                <td class="pub_links pubs">
+					{% if pub.link.size > 0 %}
+					<a class="pub_paper_links" href="{{ pub.link }}">[pdf]</a>
+					{% if pub.code.size > 0 %}
+					<br/>
+					{% endif %}
+					{% endif %}
+					{% if pub.code.size > 0 %}
+					<a class="pub_code_links" href="{{ pub.code }}">[code]</a>
+					{% endif %}
+					<br/>
+                  </td>
+              </tr>
+            </table>
+			
+ <!-- {{ pub.authors }} -  {{ pub.conference }} -->
+{% endfor %}
+
+
+

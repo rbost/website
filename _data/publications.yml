@@ -1,0 +1,24 @@
+- title: Σoφoς – Forward Secure Searchable Encryption  
+  authors: Raphael Bost
+  conference: CCS 2016
+  link: http://eprint.iacr.org/2016/728.pdf
+  code: https://gitlab.com/sse/sophos
+
+- title: "Trick or Tweak: On the (In)security of OTR's Tweaks"
+  authors: Raphael Bost and Olivier Sanders
+  conference: ePrint
+  link: https://eprint.iacr.org/2016/234.pdf
+  code:
+
+- title: "Verifiable Dynamic Symmetric Searchable Encryption: Optimality and Forward Security "
+  authors: Raphael Bost, Pierre-Alain Fouque and David Pointcheval
+  conference: ePrint
+  link: https://eprint.iacr.org/2016/062.pdf
+  code:
+  
+- title: Machine Learning Classification over Encrypted Data  
+  authors: Raphael Bost, Raluca Ada Popa, Stephen Tu and Shafi Goldwasser
+  conference: NDSS 2015
+  link: https://eprint.iacr.org/2014/331.pdf
+  code: https://github.com/rbost/ciphermed
+

@@ -1,0 +1,40 @@
+- title: Implementations of Searchable Encryption schemes
+  description: "I have implemented several searchable encryption schemes, including verifiable schemes, forward secure schemes, such as Σoφoς. The SSE project on gitlab encompasses several repos for useful components, such as a library offering an abstraction of high-level cryptographic components (pseudo-random functions, trapdoor permutations, ...)."
+  image: sse.png
+  link: https://gitlab.com/sse
+
+- title: Ciphermed
+  description: "My implementation of the paper I wrote with Raluca Ada Popa, Stephen Tu and Shafi Goldwasser, Machine Learning Classification over Encrypted Data, presented at NDSS'15."
+  link: https://github.com/rbost/ciphermed
+  image: privateinvestocat.jpg
+#
+- title: SubmatrixQueries
+  description: "SubmatrixQueries is an implementation of the data structure published by H.Kaplan, S.Mozes, Y.Nussbaum and M.Sharir for submatrix maximum queries in Monge matrices (in SODA’12). This work has been completed as my Master’s project at Brown."
+  link: https://github.com/rbost/SubmatrixQueries
+  image: brown_logo.png
+
+- title: DrawBerry
+  description: "DrawBerry is a big project I began in 2007 and which lead to an Open Source vector drawing app (like Adobe Illustrator or Inkscape but somewhat simpler)."
+  link: http://raphaelbost.free.fr/DrawBerry.html
+  image: drawberry.png
+
+- title: Geodes
+  description: "Geodes is a dynamic geometry application for Mac. It can be used to draw complex geometric figures with conics or animations. It is no longer maintained but still runs on modern version of Mac OS. If you want to get the sources, mail me !"
+  link:
+  image: geox2.png
+
+- title: ERAppKit
+  description: "ERAppKit is a project for Brown’s CS2310 class. It is developed with Evan Altman and aims to provide new interface components for Mac Apps. One of our goals is to review DrawBerry’s interface and make it more readable and usable, in particular on small screens."
+  link: https://github.com/rbost/ERAppKit
+  image: Toolbox.png
+
+- title: Algo_Elim
+  description: "This is the project I worked onto during Summer 2012 at the Inria. It is a program transformer written in CaML and which eliminates square roots and division operations in a program. The original code has been written as PhD Thesis material by Pierre Néron and I designed ways to reduce the size of the output code. A synthesis of my work can be found here (in French)."
+  link: https://bitbucket.org/raphael_bost/algo_elim
+  image: inr_logo_corpo_UK_coul.png
+
+- title: GradientPanelFramework
+  description: "GradientPanelFramework is a framework designed to provide MacOS X developers the same features that a NSColorPanel but for gradients instead of colors. This code is free to use, so import, copy, modify it as you want."
+  link: https://bitbucket.org/raphael_bost/gradientpanelframework
+  image: Toolbox.png
+

@@ -1,0 +1,75 @@
+---
+layout: page
+title: Code
+order: 3
+---
+
+<p>Because Computer Science would be less interesting without debugging segmentation faults ...</p>
+<p>Follow my contributions on <a href="https://github.com/rbost">GitHub</a>, <a href="https://gitlab.com/u/rbost">GitLab</a>, <a href="https://launchpad.net/~raphoufoune">Launchpad</a> or <a href="https://bitbucket.org/raphael_bost">Bitbucket</a></p>
+				
+				
+
+{% for code in site.data.code %}
+{% assign id = forloop.index | modulo: 2 %}
+
+<table  class="code">
+	<tr>
+		{% if id == 1 %}
+		<td class="code_pic code_pic_left" align="center">
+			{% if code.link.size > 0 %}
+			<a href="{{ code.link }}" class="code_title">
+			{% endif %}
+			
+			{% if code.image.size > 0 %}
+			<img src="/assets/{{ code.image }}" class="code_pic" />
+			{% else %}
+			<img src="/assets/photo2.jpg" height="200" />
+			{% endif %}
+			
+			{% if code.link.size > 0 %}
+			</a>
+			{% endif %}
+		</td>
+				  
+		{% endif %} 			 
+				  
+		<td class="code_desc_title">
+			<h3 class="code_title">
+				{% if code.link.size > 0 %}
+				<a href="{{ code.link }}" class="code_title">
+				{% endif %}
+				
+				{{ code.title }}
+				
+				{% if code.link.size > 0 %}
+				</a>
+				{% endif %}
+				
+			</h3>
+			<p class="code_desc"> {{ code.description }} </p>
+		</td>	
+		{% if id == 0 %}
+		<td class="code_pic code_pic_right" align="center">
+			{% if code.link.size > 0 %}
+			<a href="{{ code.link }}" class="code_title">
+			{% endif %}
+			
+			{% if code.image.size > 0 %}
+			<img src="/assets/{{ code.image }}" class="code_pic" />
+			{% else %}
+			<img src="/assets/photo2.jpg" height="200" />
+			{% endif %}
+			
+			{% if code.link.size > 0 %}
+			</a>
+			{% endif %}
+		</td>
+		{% endif %} 			 
+	</tr>
+</table>
+			
+<!-- {{ pub.authors }} -  {{ pub.conference }} -->
+{% endfor %}
+
+
+

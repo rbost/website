@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         redcarpet
+# highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            Raphael Bost
+tagline:          'Raphael Bost'
+description:      'Ph.D. Candidate'
+url:              http://people.irisa.fr/Raphael.Bost
+baseurl:          /
+
+author:
+  name:           'Raphael Bost'
+  url:            http://people.irisa.fr/Raphael.Bost
+  institution:	  'Université de Rennes 1'
+
+gems: [jekyll-paginate, jekyll-gist]
+# paginate:         5
+# paginate_path: "page:num"
