@@ -203,3 +203,20 @@ th.abstract {
   padding: 9px;
   border-radius: 3px;
 }
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a.pgp {
+	  color: rgba(255,255,255,.5);
+	  text-decoration: none;
+}
