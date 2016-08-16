@@ -3,22 +3,38 @@
   conference: CCS 2016
   link: http://eprint.iacr.org/2016/728.pdf
   code: https://gitlab.com/sse/sophos
+  abstract: |
+     Searchable Symmetric Encryption aims at making possible searching over an encrypted database stored on an untrusted server while keeping privacy of both the queries and the data, by allowing some small controlled leakage to the server.    
+     Recent works showed that dynamic schemes – in which the data is efficiently updatable – leaking some informations on updated keywords are subjects to devastating adaptative attacks breaking the queries’ privacy. The only way to thwart this attack is to design forward-private schemes whose update procedure does not leak if a newly inserted element matches previous search queries.   
+     This work proposes Σoϕoς as a forward-private SSE scheme with performance similar to existing less secure schemes, and that is conceptually simpler (and also more efficient) than previous forward-private constructions. In particular, it only relies on trapdoor permutations and does not use an ORAM-like construction. We also explain why Σoϕoς is an optimal point of the security/performance tradeoff for SSE.   
+     Finally, an implementation and evaluation results demonstrate its practical efficiency.
 
 - title: "Trick or Tweak: On the (In)security of OTR's Tweaks"
   authors: Raphael Bost and Olivier Sanders
   conference: ePrint
   link: https://eprint.iacr.org/2016/234.pdf
   code:
+  abstract: |
+   Tweakable blockcipher (TBC) is a powerful tool to design authenticated encryption schemes as illustrated by Minematsu's Offset Two Rounds (OTR) construction. It considers an additional input, called tweak, to a standard blockcipher which adds some variability to this primitive. More specifically, each tweak is expected to define a different, independent pseudo-random permutation.   
+   In this work we focus on OTR's way to instantiate a TBC and show that it does not achieve such a property for a large amount of parameters. We indeed describe collisions between the input masks derived from the tweaks and explain how they result in practical attacks against this scheme, breaking privacy, authenticity, or both, using a single encryption query, with advantage at least 1/4.   
+   We stress however that our results do not invalidate the OTR construction as a whole but simply prove that the TBC's input masks should be designed differently.
 
 - title: "Verifiable Dynamic Symmetric Searchable Encryption: Optimality and Forward Security "
   authors: Raphael Bost, Pierre-Alain Fouque and David Pointcheval
   conference: ePrint
   link: https://eprint.iacr.org/2016/062.pdf
   code:
+  abstract: |
+    Symmetric Searchable Encryption (SSE) is a very efficient and practical way for data owners to outsource storage of a database to a server while providing privacy guarantees. Such SSE schemes enable clients to encrypt their database while still performing queries for retrieving documents matching some keyword. This functionality is interesting to secure cloud storage, and efficient schemes have been designed in the past. However, security against malicious servers has been overlooked in most previous constructions and these only addressed security against honest-but-curious servers.    
+    In this paper, we study and design the first efficient SSE schemes provably secure against malicious servers. First, we give lower bounds on the complexity of such verifiable SSE schemes. Then, we construct generic solutions matching these bounds using efficient verifiable data structures. Finally, we modify an existing SSE scheme that also provides forward secrecy of search queries, and make it provably secure against active adversaries, without increasing the computational complexity of the original scheme.
   
 - title: Machine Learning Classification over Encrypted Data  
   authors: Raphael Bost, Raluca Ada Popa, Stephen Tu and Shafi Goldwasser
   conference: NDSS 2015
   link: https://eprint.iacr.org/2014/331.pdf
   code: https://github.com/rbost/ciphermed
+  abstract: |
+   Machine learning classification is used in numerous settings nowadays, such as medical or genomics predictions, spam detection, face recognition, and financial predictions. Due to privacy concerns, in some of these applications, it is important that the data and the classifier remain confidential.   
+   In this work, we construct three major classification protocols that satisfy this privacy constraint: hyperplane decision, Naïve Bayes, and decision trees. We also enable these protocols to be combined with AdaBoost. At the basis of these constructions is a new library of building blocks for constructing classifiers securely; we demonstrate that this library can be used to construct other classifiers as well, such as a multiplexer and a face detection classifier.    
+   We implemented and evaluated our library and classifiers. Our protocols are efficient, taking milliseconds to a few seconds to perform a classification when running on real medical datasets.
 
