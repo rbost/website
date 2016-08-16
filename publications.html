@@ -13,11 +13,11 @@ order: 2
             <table width="100%" border="0" class="pubs">
               <tr class="pubs">
                 <td class="pubs">
-					<a data-toggle="collapse" href="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
 					<h4 class="pub-title">
+					<a data-toggle="collapse" href="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
 						{{ pub.title }}	
-					</h4>
 					</a>					
+					</h4>
 						<span class="pub_author"> {{ pub.authors }} </span> -
 						<span class="pub_conference"> {{ pub.conference }} </span>
 						
@@ -37,11 +37,11 @@ order: 2
 			  
 			<tr class="abstract">
 				<td colspan="2" class="abstract">
-					<div class=" collapse out" id="collapse{{ forloop.index }}">
-						<div class="abstract_panel">
+					<div class=" collapse out abstract_panel" id="collapse{{ forloop.index }}">
+						<!-- <div class="abstract_panel"> -->
 							{% capture abstract %}{{ pub.abstract }}{% endcapture %}
 							{{ abstract | markdownify }}
-					</div>
+						<!-- </div> -->
 					</div>
 			</td>
 			</tr>

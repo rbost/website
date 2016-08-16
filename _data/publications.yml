@@ -11,7 +11,7 @@
 
 - title: "Trick or Tweak: On the (In)security of OTR's Tweaks"
   authors: Raphael Bost and Olivier Sanders
-  conference: ePrint
+  conference: AsiaCrypt 2016
   link: https://eprint.iacr.org/2016/234.pdf
   code:
   abstract: |

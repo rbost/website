@@ -78,12 +78,6 @@ th.pub_conference
   border: none;
 }
 
-td.abstract,
-th.abstract {
-  padding: 0rem 0rem;
-  border: none;
-}
-
 
 .code_desc {
 	text-align:justify;
@@ -178,7 +172,18 @@ tbody.collapse.in {
           transition-property: height, visibility;
 }
 
+td.abstract,
+th.abstract {
+  padding: 0rem 0rem;
+  border: none;
+}
 .abstract_panel {
+	
+  line-height: 1.3;
+  font-size: 0.85em;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+
   min-height: 20px;
   padding: 19px;
 /*  margin-bottom: 20px;*/
