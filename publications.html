@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: Publications & Talks
 order: 2
 ---
 <!-- Bootstrap's JS is only needed here -->
@@ -8,6 +8,7 @@ order: 2
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/public/js/bootstrap.min.js"></script>
 
+	<h2>Papers</h2>
 
 {% for pub in site.data.publications %}
             <table width="100%" border="0" class="pubs">
@@ -50,4 +51,59 @@ order: 2
 {% endfor %}
 
 
+
+
+<br/>
+
+
+
+
+
+	<h2>Presentations</h2>
+
+            <!-- <table width="100%" border="0" style="width:100%;text-align:left;background-color:gold;"> -->
+{% for pres in site.data.presentations %}
+
+            <table width="100%" border="0" class="pres">
+
+              <tr class="pres">
+                <td class="pres">
+					<h4 class="pub-title">
+						{{ pres.title }}	
+					</h4>
+						<!-- <span class="pub_author"> {{ pub.authors }} </span> -
+						<span class="pub_conference"> {{ pub.conference }} </span> -->
+							
+						<div style="margin-left:.5em">
+			            <table width="100%" border="0" class="venue">
+						
+						{% for venue in pres.venues %}
+							
+			                <tr class="venue" >
+				                <!-- <tr class="pres" style="background-color:yellowgreen;color:white;"> -->
+				                <td class="venue">
+									{{ venue.where }}
+				                </td>
+				                <td class="venue venue_date" width="150em">
+									{{ venue.when }}
+				                </td>
+				                <td class="pub_links venue">
+									{% if venue.slides_link.size > 0 %}
+									<a class="pub_paper_links" href="{{ site.baseurl }}/slides/{{ venue.slides_link }}">[slides]</a>
+									{% endif %}
+									<br/>
+				                </td>
+								
+			                </tr>
+							
+						{% endfor %}
+			            
+						</table>
+					</div>
+						
+              </tr>
+			  
+            </table>
+			  
+{% endfor %}
 

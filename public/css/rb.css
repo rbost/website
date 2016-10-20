@@ -17,6 +17,8 @@ table.pubs {
 /*  width: 100%;*/
   border: none;
 /*  border-collapse: collapse;*/
+  background-color: #f9f9f9;
+  
 }
 
 td.pubs,
@@ -78,7 +80,60 @@ th.pub_conference
   border: none;
 }
 
+table.pres {
+    background-color: #f9f9f9;
+	
+  border: none;
+  border-collapse: collapse;
+  
+/*margin-top: 0;*/
+/*margin-bottom: 0;*/
+/*margin-left:10em;*/
 
+}
+
+td.pres,
+tr.pres,
+th.pres {
+/*  background-color:yellowgreen;*/
+/*  padding: .25rem .5rem;*/
+  border: none;
+/*  background: transparent;*/
+/*margin-left:10em;*/
+
+}
+
+
+table.venue {
+/*    background-color: background-color:rgba(0, 0, 0, 0);*/
+	
+/*  margin-bottom: 1rem;*/
+/*  width: 100%;*/
+  border: none;
+  border-collapse: collapse;
+/*  background: transparent;*/
+margin-top: 0;
+margin-bottom: 0;
+/*margin-left:10em;*/
+
+}
+
+
+
+td.venue,
+tr.venue,
+th.venue {
+/*  background-color:gold;*/
+  padding: 0rem 0rem;
+  border: none;
+/*  background: transparent;*/
+	
+}
+
+.venue_date {
+	text-align: right;
+	font-style: italic;
+}
 .code_desc {
 	text-align:justify;
 	font-size: 0.85em;
@@ -108,12 +163,13 @@ img.code_pic {
 }
 
 table.code {
+    background-color: #f9f9f9;
+	
 	  padding: 1rem 1rem;
 	
 /*  margin-bottom: 1rem;*/
 /*  width: 100%;*/
   border: none;
-  background-color: red;
   
 /*  border-collapse: collapse;*/
 }
