@@ -2,14 +2,14 @@
   venues:
     - where: ACM CCS 2016 (Vienna)
       when: October 23rd, 2016
-      # slides_link: http://eprint.iacr.org/2016/728.pdf
-    - where: Microsoft Research, Cambridge (UK)
+      slides_link: Sophos_CCS.pdf
+    - where: Microsoft Research (Cambridge, UK)
       when: July 13th, 2016
       slides_link: Sophos_MSR.pdf
     
 - title: Verifiable Symmetric Searchable Encryption  
   venues:
-    - where: Séminaire Dromadaire, Rennes
+    - where: EMSEC's Séminaire Dromadaire  (Rennes)
       when: March 9th, 2016
       slides_link: VSSE_Dromadaire.pdf
 
