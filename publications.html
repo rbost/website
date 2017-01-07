@@ -5,7 +5,7 @@ order: 2
 ---
 <!-- Bootstrap's JS is only needed here -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/public/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/public/js/bootstrap.min.js"></script>
 
 	<h2>Papers</h2>
@@ -74,7 +74,7 @@ order: 2
 						<!-- <span class="pub_author"> {{ pub.authors }} </span> -
 						<span class="pub_conference"> {{ pub.conference }} </span> -->
 							
-						<div style="margin-left:.5em">
+						<div class="pres-venues">
 			            <table width="100%" border="0" class="venue">
 						
 						{% for venue in pres.venues %}

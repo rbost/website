@@ -10,11 +10,11 @@ permalink:        pretty
 title:            Raphael Bost
 tagline:          'Raphael Bost'
 description:      'Ph.D. Candidate'
-url:              http://raphael.bost.fyi/
+url:              https://raphael.bost.fyi/
 
 author:
   name:           'Raphael Bost'
-  url:            http://raphael.bost.fyi
+  url:            https://raphael.bost.fyi
   institution:	  'Université de Rennes 1'
 
 gems: [jekyll-paginate, jekyll-gist]
