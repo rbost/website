@@ -286,3 +286,12 @@ a.pgp {
     margin-left: auto;
     margin-right: auto;	
 }
+
+@media (min-width: 48em) {
+  .sticky-bottom {
+    position: absolute;
+/*    right:  1rem;*/
+    bottom: 1rem;
+/*    left:   1rem;*/
+  }
+}
