@@ -127,7 +127,7 @@ th.venue {
   padding: 0rem 0rem;
   border: none;
 /*  background: transparent;*/
-	
+	vertical-align: top
 }
 
 .venue_date {

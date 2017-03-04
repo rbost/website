@@ -90,6 +90,12 @@ order: 2
 				                <td class="pub_links venue">
 									{% if venue.slides_link.size > 0 %}
 									<a class="pub_paper_links" href="{{ site.baseurl }}/slides/{{ venue.slides_link }}">[slides]</a>
+									{% if venue.video_link.size > 0 %}
+									<br/>
+									{% endif %}
+									{% endif %}
+									{% if venue.video_link.size > 0 %}
+									<a class="pub_paper_links" href="{{ venue.video_link }}">[video]</a>
 									{% endif %}
 									<br/>
 				                </td>
