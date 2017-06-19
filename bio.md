@@ -2,6 +2,7 @@
 layout: page
 title: Bio
 order: 4
+sidebar: yes
 ---
 
 

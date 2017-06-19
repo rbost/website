@@ -1,7 +1,11 @@
 # Dependencies
-markdown:         redcarpet
-# highlighter:      pygments
+markdown: kramdown
+highlighter: rouge
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
 # Permalinks
 permalink:        pretty
 # relative_permalinks: true
@@ -17,6 +21,8 @@ author:
   url:            https://raphael.bost.fyi
   institution:	  'Université de Rennes 1'
 
-gems: [jekyll-paginate, jekyll-gist]
+ 
+  
+plugins: [jekyll-paginate, jekyll-gist]
 # paginate:         5
 # paginate_path: "page:num"
