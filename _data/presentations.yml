@@ -1,3 +1,9 @@
+- title: "Searchable Encryption: From Theory to Implementation"
+  venues:
+    - where: ENS (Paris, France)
+      when: June 28th, 2017
+      slides_link: SSE_ENS.pdf
+
 - title: Forward Secure Searchable Encryption and Beyond
   venues:
     - where: MIT (Boston, MA)
