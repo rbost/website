@@ -42,7 +42,7 @@ th.pubs {
 /*	min-width: 4em;*/
 	width: 4em;
 	vertical-align: top;
-	text-align: right;	
+	text-align: right;
 }
 .pub_auth_conf {
 	margin-top: 0;
@@ -133,7 +133,10 @@ th.venue {
 .venue_date {
 	text-align: right;
 	font-style: italic;
+/*	padding-left: 1em;*/
 }
+
+
 .code_desc {
 	text-align:justify;
 	font-size: 0.85em;

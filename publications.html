@@ -25,16 +25,21 @@ icon: graduation-cap
 						<span class="pub_conference"> {{ pub.conference }} </span>
 						
                 <td class="pub_links pubs">
+					{% if pub.code.size > 0 %}
+					<a class="pub_code_links" href="{{ pub.code }}">
+						<span class="fa fa-code fa-lg" aria-hidden="true"></span>
+						<!-- [code] -->
+					</a>
+					{% endif %}
+					
 					{% if pub.link.size > 0 %}
-					<a class="pub_paper_links" href="{{ pub.link }}">[pdf]</a>
-					{% if pub.code.size > 0 %}
-					<br/>
+					<a class="pub_paper_links" href="{{ pub.link }}">			
+						<span class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></span>
+						<!-- [pdf] -->
+					</a>
+					
 					{% endif %}
-					{% endif %}
-					{% if pub.code.size > 0 %}
-					<a class="pub_code_links" href="{{ pub.code }}">[code]</a>
-					{% endif %}
-					<br/>
+					<!-- <br/> -->
                   </td>
               </tr>
 			  
@@ -84,22 +89,29 @@ icon: graduation-cap
 			                <tr class="venue" >
 				                <!-- <tr class="pres" style="background-color:yellowgreen;color:white;"> -->
 				                <td class="venue">
-									{{ venue.where }}
-				                </td>
-				                <td class="venue venue_date" width="150em">
-									{{ venue.when }}
+									{{ venue.where }} &mdash;
+									<span class="venue_date">
+										{{ venue.when }}
+									</span>
 				                </td>
 				                <td class="pub_links venue">
+									
+									{% if venue.video_link.size > 0 %}
+									<a class="pub_paper_links" href="{{ venue.video_link }}">
+										<span class="fa fa-video-camera" aria-hidden="true"></span>
+										<!-- [video] -->
+									</a>
+									{% endif %}
+									
 									{% if venue.slides_link.size > 0 %}
-									<a class="pub_paper_links" href="{{ site.baseurl }}/slides/{{ venue.slides_link }}">[slides]</a>
-									{% if venue.video_link.size > 0 %}
-									<br/>
+									<a class="pub_paper_links" href="{{ site.baseurl }}/slides/{{ venue.slides_link }}">
+										<span class="fa fa-slideshare fa-lg" aria-hidden="true"></span>
+										<!-- [slides] -->
+									</a>
+									<!-- <br/> -->
 									{% endif %}
-									{% endif %}
-									{% if venue.video_link.size > 0 %}
-									<a class="pub_paper_links" href="{{ venue.video_link }}">[video]</a>
-									{% endif %}
-									<br/>
+									
+									
 				                </td>
 								
 			                </tr>
