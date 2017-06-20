@@ -295,3 +295,28 @@ a.pgp {
 /*    left:   1rem;*/
   }
 }
+
+
+table.nav {
+  margin-bottom: 0rem;
+/*  width: 100%;*/
+  border: none;
+  border-collapse: collapse;
+  background-color: none;
+  
+}
+
+td.nav,
+th.nav {
+/*  padding: .25rem .5rem;*/
+  padding: 0rem 0rem;
+  
+  border: none;
+  margin-top: 0.4rem;
+  margin-bottom: 0rem;
+  
+}
+td.navicon {
+	text-align: center;
+}
+
