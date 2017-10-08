@@ -323,3 +323,13 @@ td.navicon {
 	text-align: center;
 }
 
+
+.seal {
+   float: right;
+/*   border: 5px solid black;*/
+   width:150px;
+   height:150px;
+   padding: 0px 0px 0px 10px;
+margin-bottom: -15px;
+margin-top: -10px;
+}

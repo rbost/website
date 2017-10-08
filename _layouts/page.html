@@ -3,6 +3,9 @@ layout: default
 ---
 
 <div class="page">
+	{% if page.title == "Home" %}
+	<img class="seal" src="{{ site.baseurl }}/assets/seal.svg" alt="chinese_seal"/>
+    {% endif %}	
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
 </div>
