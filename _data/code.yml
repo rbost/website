@@ -1,4 +1,4 @@
-- title: Implementations of Searchable Encryption schemes
+- title: OpenSSE
   description: "I have implemented several searchable encryption schemes, including verifiable schemes, forward or backward secure schemes, such as Σoφoς, Diana or Janus. The OpenSSE project encompasses several repos for useful components, such as a library offering an abstraction of high-level cryptographic components (pseudo-random functions, trapdoor permutations, ...)."
   image: sse.png
   link: https://opensse.github.io/
