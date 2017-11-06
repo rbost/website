@@ -1,10 +1,24 @@
+- title: Thwarting Leakage Abuse Attacks against Searchable Encryption - A Formal Approach and Applications to Database Padding  
+  authors: Raphael Bost, and Pierre-Alain Fouque
+  conference: ePrint
+  link: https://eprint.iacr.org/2017/1060.pdf
+  code:
+  abstract: |
+     After the development of practical searchable encryption constructions, allowing for secure searches over an encrypted dataset outsourced to an untrusted server, at the expense of leaking some information to the server, many new attacks have recently been developed, targeting this leakage in order to break the confidentiality of the dataset or of the queries, through *leakage abuse attacks*. 
+   
+     These works helped to understand the importance of considering leakage when analyzing the security of searchable encryption schemes, but did not explain why these attacks were so powerful despite the existence of rigorous security definitions and proofs, or how they could be efficiently and provably mitigated. 
+   
+     This work addresses these questions by first proposing an analysis of existing leakage abuse attacks and a way to capture them in new security definitions. These new definitions also help us to devise a way to thwart these attacks and we apply it to the padding of datasets, in order to hide the number of queries’ results, and to provide provable security of some schemes with specific leakage profile against some common classes of leakage abuse attacks. 
+   
+     Finally, we give experimental evidence that our countermeasures can be implemented efficiently, and easily applied to existing searchable encryption schemes.
+
 - title: Forward and Backward Private Searchable Encryption from Constrained Cryptographic Primitives  
   authors: Raphael Bost, Brice Minaud and Olga Ohrimenko
   conference: CCS 2017
   link: https://eprint.iacr.org/2017/805.pdf
   code: https://github.com/OpenSSE/opensse-schemes
   abstract: |
-     Using dynamic Searchable Symmetric Encryption, a user with limited storage resources can securely outsource a database to an untrusted server, in such a way that the database can still be searched and updated efficiently. For these schemes, it would be desirable that updates do not reveal any information \emph{a priori} about the modifications they carry out, and that deleted results remain inaccessible to the server a posteriori. If the first property, called forward privacy, has been the main motivation of recent works, the second one, backward privacy, has been overlooked.
+     Using dynamic Searchable Symmetric Encryption, a user with limited storage resources can securely outsource a database to an untrusted server, in such a way that the database can still be searched and updated efficiently. For these schemes, it would be desirable that updates do not reveal any information *a priori* about the modifications they carry out, and that deleted results remain inaccessible to the server a posteriori. If the first property, called forward privacy, has been the main motivation of recent works, the second one, backward privacy, has been overlooked.
    
      In this paper, we study for the first time the notion of backward privacy for searchable encryption. After giving formal definitions for different flavors of backward privacy, we present several schemes achieving both forward and backward privacy, with various efficiency trade-offs.
    
