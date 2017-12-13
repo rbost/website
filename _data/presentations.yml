@@ -1,3 +1,9 @@
+- title: "Searchable Encryption: New Constructions of Encrypted Databases (Ph.D. Defence)"
+  venues:
+    - where: Rennes, France
+      when: January 8th, 2018
+      slides_link: 
+
 - title: Forward and Backward Private Searchable Encryption from Constrained Cryptographic Primitives
   venues:
     - where: ACM CCS 2017 (Dallas, TX)
