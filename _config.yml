@@ -24,9 +24,10 @@ author:
 
 scholar:
   style: assets/bibliography/acm-siggraph.csl
-  
-  
-  
-plugins:
+    
+plugins: 
+    - 'jekyll-scholar'
+    - 'liquefy'
+
 # paginate:         5
 # paginate_path: "page:num"
