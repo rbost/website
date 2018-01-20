@@ -2,7 +2,8 @@
   venues:
     - where: Rennes, France
       when: January 8th, 2018
-      slides_link: 
+      external_link: true
+      slides_link: "{{ site.baseurl }}/phd/"
 
 - title: Forward and Backward Private Searchable Encryption from Constrained Cryptographic Primitives
   venues:

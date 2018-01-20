@@ -104,7 +104,12 @@ icon: graduation-cap
 									{% endif %}
 									
 									{% if venue.slides_link.size > 0 %}
-									<a class="pub_paper_links" href="{{ site.baseurl }}/slides/{{ venue.slides_link }}">
+									    {% if venue.external_link %}
+									    <a class="pub_paper_links" href="{{ venue.slides_link | liquefy }}">
+                                        {% else %}
+									    <a class="pub_paper_links" href="{{ site.baseurl }}/slides/{{ venue.slides_link }}">
+    									{% endif %}
+                                        
 										<span class="fa fa-slideshare fa-lg" aria-hidden="true"></span>
 										<!-- [slides] -->
 									</a>
