@@ -48,7 +48,7 @@ icon: graduation-cap
 					<div class=" collapse out abstract_panel" id="collapse{{ forloop.index }}">
 						<!-- <div class="abstract_panel"> -->
 							{% capture abstract %}{{ pub.abstract }}{% endcapture %}
-							{{ abstract | markdownify }}
+							{{ abstract | liquefy | markdownify }}
 						<!-- </div> -->
 					</div>
 			</td>
