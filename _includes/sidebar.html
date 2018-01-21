@@ -13,7 +13,11 @@
         </a>
           {% endif %}
       </h1>
-      <span class="lead">{{ site.description }} <br/> {{ site.author.institution }} <br/>
+      <span class="lead">
+          {% if site.description.size > 0 %}
+          {{ site.description }} <br/>
+          {% endif %}
+          {{ site.author.institution }} <br/>
 	  <!-- <span class="email">raphael_bost[at]alumni.brown.edu</span>  -->
 	  <a class="email" href="mailto:raphael_bost[at]alumni[dot]brown[dot]edu"><span class="fa fa-at fa-lg" aria-hidden="true"></span></a>
 	  &nbsp;
