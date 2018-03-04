@@ -10,6 +10,7 @@
     - where: ACM CCS 2017 (Dallas, TX)
       when: November 1st, 2017
       slides_link: FP_BP_CCS.pdf
+      video_link: https://www.youtube.com/watch?v=wcTFp7z4j7E
 
 - title: "Searchable Encryption: From Theory to Implementation"
   venues:
