@@ -1,3 +1,9 @@
+- title: Efficiency Lower Bounds and Optimal Constructions of Searchable Encryption
+  venues:
+    - where: ESSA2 Workshop (Bertinoro, Italy)
+      when: July 10th, 2018
+      slides_link: essa2.pdf
+
 - title: "Searchable Encryption: New Constructions of Encrypted Databases (Ph.D. Defence)"
   venues:
     - where: Rennes, France
