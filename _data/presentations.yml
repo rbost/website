@@ -2,7 +2,7 @@
   venues:
     - where: ESSA2 Workshop (Bertinoro, Italy)
       when: July 10th, 2018
-      slides_link: essa2.pdf
+      slides_link: ESSA2.pdf
 
 - title: "Searchable Encryption: New Constructions of Encrypted Databases (Ph.D. Defence)"
   venues:
