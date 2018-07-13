@@ -6,7 +6,7 @@ sidebar: yes
 icon: user
 ---
 
-<img class="floating_img" src="{{ site.baseurl }}/assets/photo2.jpg" height="200px" />
+<img class="floating_img" src="{{ site.baseurl }}/assets/photo2.jpg" height="200px" alt="Photo"/>
 
 
 I joined [IRISA](https://www.irisa.fr/en)'s [EMSEC](https://www.irisa.fr/emsec/) team in September 2014 as a Ph.D. Student in Computer Science. I am working on cryptography, security and data privacy and, these days, more specifically on symmetric searchable encryption.

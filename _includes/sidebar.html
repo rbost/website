@@ -3,7 +3,7 @@
     <div class="sidebar-about">
       <h1>
 		  <center>
-		  <img src="{{ site.baseurl }}/assets/seal.svg" height="200" />
+		  <img src="{{ site.baseurl }}/assets/seal.svg" alt="seal" height="200" />
 	  </center>
       {% if page.title != "Home" %}
 	  <a href="{{ site.url }}">
@@ -19,9 +19,9 @@
           {% endif %}
           {{ site.author.institution }} <br/>
 	  <!-- <span class="email">raphael_bost[at]alumni.brown.edu</span>  -->
-	  <a class="email" href="mailto:raphael_bost[at]alumni[dot]brown[dot]edu"><span class="fa fa-at fa-lg" aria-hidden="true"></span></a>
+	  <a class="email" title="Email: raphael_bost[at]alumni[dot]brown[dot]edu" href="mailto:raphael_bost[at]alumni[dot]brown[dot]edu" ><span class="fa fa-at fa-lg" aria-hidden="true"></span></a>
 	  &nbsp;
-	  <a class="email" href="https://keybase.io/rbost"><span class="fa fa-lock fa-lg" aria-hidden="true"></span></a>
+	  <a class="email" title="Keybase" href="https://keybase.io/rbost"><span class="fa fa-lock fa-lg" aria-hidden="true"></span></a>
 	  </span>
     </div>
 
@@ -43,12 +43,12 @@
           {% if node.layout == "page" %}
 		  	<tr class="nav">
 				<td class="nav">
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}" title="{{ node.title }}">
 			{{ node.title }}</a>
 				</td>
 				<td class="nav navicon">
 			{% if node.icon != null %}
-			<a class="sidebar-nav-item" href="{{ site.baseurl }}{{ node.url }}">
+			<a class="sidebar-nav-item" href="{{ site.baseurl }}{{ node.url }}" title="{{ node.title }}">
 			<span class="fa fa-{{ node.icon }}" aria-hidden="true"></span>
 			</a>
             {% endif %}	

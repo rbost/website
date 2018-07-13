@@ -23,9 +23,9 @@ icon: code
 			{% endif %}
 			
 			{% if code.image.size > 0 %}
-			<img src="{{ site.baseurl }}/assets/{{ code.image }}" class="code_pic" />
+			<img src="{{ site.baseurl }}/assets/{{ code.image }}" class="code_pic" alt="{{ code.image }}"/>
 			{% else %}
-			<img src="{{ site.baseurl }}/assets/photo2.jpg" height="200" />
+			<img src="{{ site.baseurl }}/assets/photo2.jpg" height="200" alt="Code"/>
 			{% endif %}
 			
 			{% if code.link.size > 0 %}
@@ -38,7 +38,7 @@ icon: code
 		<td class="code_desc_title">
 			<h3 class="code_title">
 				{% if code.link.size > 0 %}
-				<a href="{{ code.link }}" class="code_title">
+				<a href="{{ code.link }}" class="code_title" title="Link to {{ code.title }}">
 				{% endif %}
 				
 				{{ code.title }}
@@ -53,13 +53,13 @@ icon: code
 		{% if id == 0 %}
 		<td class="code_pic code_pic_right" align="center">
 			{% if code.link.size > 0 %}
-			<a href="{{ code.link }}" class="code_title">
+			<a href="{{ code.link }}" class="code_title" title="Link to {{ code.title }}">
 			{% endif %}
 			
 			{% if code.image.size > 0 %}
-			<img src="{{ site.baseurl }}/assets/{{ code.image }}" class="code_pic" />
+			<img src="{{ site.baseurl }}/assets/{{ code.image }}" class="code_pic"  alt="{{ code.image }}"/>
 			{% else %}
-			<img src="{{ site.baseurl }}/assets/photo2.jpg" height="200" />
+			<img src="{{ site.baseurl }}/assets/photo2.jpg" height="200" alt="Code"/>
 			{% endif %}
 			
 			{% if code.link.size > 0 %}

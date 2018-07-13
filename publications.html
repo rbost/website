@@ -17,7 +17,7 @@ icon: graduation-cap
               <tr class="pubs">
                 <td class="pubs">
 					<h4 class="pub-title">
-					<a data-toggle="collapse" href="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
+					<a data-toggle="collapse" href="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}" title="Toggle abstract collapse">
 						{{ pub.title }}	
 					</a>					
 					</h4>
@@ -26,14 +26,14 @@ icon: graduation-cap
 						
                 <td class="pub_links pubs">
 					{% if pub.code.size > 0 %}
-					<a class="pub_code_links" href="{{ pub.code }}">
+					<a class="pub_code_links" href="{{ pub.code }}" title="Link to the code">
 						<span class="fa fa-code fa-lg" aria-hidden="true"></span>
 						<!-- [code] -->
 					</a>
 					{% endif %}
 					
 					{% if pub.link.size > 0 %}
-					<a class="pub_paper_links" href="{{ pub.link }}">			
+					<a class="pub_paper_links" href="{{ pub.link }}" title="Paper (PDF)">			
 						<span class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></span>
 						<!-- [pdf] -->
 					</a>
@@ -97,7 +97,7 @@ icon: graduation-cap
 				                <td class="pub_links venue">
 									
 									{% if venue.video_link.size > 0 %}
-									<a class="pub_paper_links" href="{{ venue.video_link }}">
+									<a class="pub_paper_links" href="{{ venue.video_link }}" title="Video">
 										<span class="fa fa-video-camera" aria-hidden="true"></span>
 										<!-- [video] -->
 									</a>
@@ -105,9 +105,9 @@ icon: graduation-cap
 									
 									{% if venue.slides_link.size > 0 %}
 									    {% if venue.external_link %}
-									    <a class="pub_paper_links" href="{{ venue.slides_link | liquefy }}">
+									    <a class="pub_paper_links" href="{{ venue.slides_link | liquefy }}" title="Slides">
                                         {% else %}
-									    <a class="pub_paper_links" href="{{ site.baseurl }}/slides/{{ venue.slides_link }}">
+									    <a class="pub_paper_links" href="{{ site.baseurl }}/slides/{{ venue.slides_link }}" title="Slides">
     									{% endif %}
                                         
 										<span class="fa fa-file-o fa-lg" aria-hidden="true"></span>
