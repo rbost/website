@@ -21,7 +21,9 @@ author:
   url:            https://raphael.bost.fyi
   institution:	  'Université de Rennes 1'
 
-
+sass:
+  style: compressed
+    
 scholar:
   style: assets/bibliography/acm-siggraph.csl
     
