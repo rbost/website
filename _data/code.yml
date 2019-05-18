@@ -29,7 +29,7 @@
   image: Toolbox.png
 
 - title: Algo_Elim
-  description: "This is the project I worked onto during Summer 2012 at the Inria. It is a program transformer written in CaML and which eliminates square roots and division operations in a program. The original code has been written as PhD Thesis material by Pierre Néron and I designed ways to reduce the size of the output code. A synthesis of my work can be found here (in French)."
+  description: "This is the project I worked onto during Summer 2012 at the Inria. It is a program transformer written in CaML and which eliminates square roots and division operations in a program. The original code has been written as Ph.D. Thesis material by Pierre Néron and I designed ways to reduce the size of the output code. A synthesis of my work can be found here (in French)."
   link: https://bitbucket.org/raphael_bost/algo_elim
   image: inr_logo_corpo_UK_coul.png
 
