@@ -1,3 +1,18 @@
+- title: Security-Efficiency Tradeoffs in Searchable Encryption - Lower Bounds and Optimal Constructions  
+  authors: Raphael Bost and Pierre-Alain Fouque
+  conference: PETS 2019
+  link: 
+  code: 
+  abstract: |
+     Besides their security, the efficiency of searchable encryption schemes is a major criteria when it comes to their adoption: in order to replace an unencrypted database by a more secure construction, it must scale to the systems which rely on it.
+     Unfortunately, the relationship between the efficiency and the security of searchable encryption has not been widely studied, and the minimum cost of some crucial security properties is still unclear.
+   
+     In this paper, we present new lower bounds on the tradeoffs between the size of the client state, the efficiency and the security for searchable encryption schemes.
+     These lower bounds target two kinds of schemes: schemes hiding the repetition of search queries, and forward-private dynamic schemes, for which updates are oblivious.
+   
+     We also show that these lower bounds are tight, by either constructing schemes matching them, or by showing that even a small increase in the amount of leaked information allows for constructing schemes breaking the lower bounds.
+
+
 - title: "Searchable Encryption: New Constructions of Encrypted Databases"
   authors: Raphael Bost 
   conference: Ph.D. Thesis
