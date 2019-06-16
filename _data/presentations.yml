@@ -1,3 +1,11 @@
+- title: Understanding and Mitigating Leakage-Abuse Attacks against Searchable Encryption
+  venues:
+    - where: ICERM's Encrypted Search Workshop (Providence, RI)
+      when: June 10th, 2019
+      external_link: true
+      slides_link: "https://icerm.brown.edu/materials/Slides/tw19-1-es/Understanding_and_Mitigating_Leakage-Abuse_Attacks_against_Searchable_Encryption_]_Raphael_Bost,_Direction_Générale_de_lArmement_-_Maitrise_de_lInformation.pdf"
+      video_link: https://icerm.brown.edu/video_archive/?play=1943
+
 - title: Efficiency Lower Bounds and Optimal Constructions of Searchable Encryption
   venues:
     - where: ESSA2 Workshop (Bertinoro, Italy)
