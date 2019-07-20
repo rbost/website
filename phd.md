@@ -30,5 +30,4 @@ My work has been awarded the 2018 Ph.D. award by [CNRS' GDR Sécurité Informati
 
 * Une vidéo en Français présentant ma thése, faite à l'occasion de la remise du prix du GDR Sécurité informatique: [YouTube](https://www.youtube.com/watch?v=sQFTjO23ECA), [HD](http://raphael.bost.fyi/share/Film_these.mp4), [SD](http://raphael.bost.fyi/share/Film_these_small.mp4).
 
-* Interview dans la [gazette du GDR Sécurité](<https://gdr-securite.irisa.fr/wp-content/uploads/Gazette_Securite_03.pdf>
-) (page 5).
+* Interview dans la [gazette du GDR Sécurité](https://gdr-securite.irisa.fr/wp-content/uploads/Gazette_Securite_03.pdf) (page 5).
