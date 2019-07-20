@@ -6,8 +6,11 @@
       slides_link: "https://icerm.brown.edu/materials/Slides/tw19-1-es/Understanding_and_Mitigating_Leakage-Abuse_Attacks_against_Searchable_Encryption_]_Raphael_Bost,_Direction_Générale_de_lArmement_-_Maitrise_de_lInformation.pdf"
       video_link: https://icerm.brown.edu/video_archive/?play=1943
 
-- title: Efficiency Lower Bounds and Optimal Constructions of Searchable Encryption
+- title: Security-Efficiency Tradeoffs in Searchable Encryption -- Lower Bounds and Optimal Constructions
   venues:
+    - where: Privacy Enhancing Technologies Symposium (Stockholm, Sweden)
+      when: July 17th, 2019
+      slides_link: PETS19.pdf
     - where: ESSA2 Workshop (Bertinoro, Italy)
       when: July 10th, 2018
       slides_link: ESSA2.pdf
