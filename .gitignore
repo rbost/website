@@ -42,3 +42,6 @@ node_modules
 
 # Gemfiles locks
 Gemfile.lock
+
+# Jekyll Cache
+.jekyll-cache/
