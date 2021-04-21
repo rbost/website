@@ -1,3 +1,9 @@
+- title: A Quick Intro to Searchable Encryption
+  venues:
+    - where: University of Caean Security Seminar (Caen, France)
+      when: Avril 21st, 2021
+      slides_link: Caen.pdf
+
 - title: Understanding and Mitigating Leakage-Abuse Attacks against Searchable Encryption
   venues:
     - where: ICERM's Encrypted Search Workshop (Providence, RI)
@@ -44,14 +50,14 @@
       when: February 15th, 2017
       slides_link: Sophos_MIT.pdf
 
-- title: "Trick or Tweak: On the (In)security of OTR's Tweaks" 
+- title: "Trick or Tweak: On the (In)security of OTR's Tweaks"
   venues:
     - where: IACR Asiacrypt 2016  (Hanoi, Vietnam)
       when: December 6th, 2016
       slides_link: Trick_or_Tweak.pdf
       video_link: https://youtu.be/MaByAJGfAFg
 
-- title: Σoφoς – Forward Secure Searchable Encryption  
+- title: Σoφoς – Forward Secure Searchable Encryption
   venues:
     - where: ACM CCS 2016 (Vienna, Austria)
       when: October 23rd, 2016
@@ -60,8 +66,8 @@
     - where: Microsoft Research (Cambridge, UK)
       when: July 13th, 2016
       slides_link: Sophos_MSR.pdf
-    
-- title: Verifiable Symmetric Searchable Encryption  
+
+- title: Verifiable Symmetric Searchable Encryption
   venues:
     - where: EMSEC's Séminaire Dromadaire  (Rennes)
       when: March 9th, 2016
